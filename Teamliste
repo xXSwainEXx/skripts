@@ -1,61 +1,55 @@
 #+----------------------------------------------------------+
-#¦                       Team Liste!                        ¦
+#¦                       Team Online!                       ¦
 #¦                      by xXSwainEXx                       ¦
 #+----------------------------------------------------------+
 
+# Version: 1.0
+
 variables:
-	{online.%player%} = "OFFLINE"
-	{online1.%player%] = "OFFLINE"
-	{online2.%player%] = "OFFLINE"
-	{online3.%player%] = "OFFLINE"
-	{online4.%player%] = "OFFLINE"
-
-command /offline:
-	trigger:
-		set {online1.%player%} to "&COFFLINE"
-		set {online2.%player%} to "&COFFLINE"
-		set {online3.%player%} to "&COFFLINE"
-		set {online4.%player%} to "&COFFLINE"  
+	{online.xXSwainEXx} = "&cOFFLINE"
+	{online.XxMasterxX158} = "&cOFFLINE"
+	{online.PR0_G3M3R} = "&cOFFLINE"
+	{online.IuIzSec_} = "&cOFFLINE"
 
 on join:
 	name of player is "xXSwainEXx"
-	set {online.%player%} to "&aONLINE"
+	set {online.xXSwainEXx} to "&aONLINE"
 
 on quit:
 	name of player is "xXSwainEXx"
-	set {online.%player%} to "&cOFFLINE"
+	set {online.xXSwainEXx} to "&cOFFLINE"
 
 on join:
 	name of player is "XxMasterxX158"
-	set {online1.%player%} to "&aONLINE"
+	set {online.XxMasterxX158} to "&aONLINE"
 
 on quit:
 	name of player is "XxMasterxX158"
-	set {online1.%player%} to "&cOFFLINE"
+	set {online.XxMasterxX158} to "&cOFFLINE"
 
 on join:
 	name of player is "PR0_G3M3R"
-	set {online2.%player%} to "&aONLINE"
+	set {online.PR0_G3M3R} to "&aONLINE"
 
 on quit:
 	name of player is "PR0_G3M3R"
-	set {online2.%player%} to "&cOFFLINE"
+	set {online.PR0_G3M3R} to "&cOFFLINE"
 
 on join:
 	name of player is "IuIzSec_"
-	set {online3.%player%} to "&aONLINE"
+	set {online.IuIzSec_} to "&aONLINE"
 
 on quit:
 	name of player is "IuIzSec_"
-	set {online4.%player%} to "&cOFFLINE"
+	set {online.IuIzSec_} to "&cOFFLINE"
 
 command /team:
 	trigger:
 		message "&7============= &aMineBuild &6Teamliste &7============="
 		message " "
-		message " &81 &7l &4&oOWNER &7l &4xXSwainEXx &7l %{online.%player%}%"
-		message " &82 &7l &4&oOWNER &7l &4XxMasterxX158 &7l %{online1.%player%}%"
-		message " &83 &7l &c&oADMIN &7l &cPR0_G3M3R &7l %{online2.%player%}%"
-		message " &84 &7l &c&oADMIN &7l &cIuIzSec_ &7l %{online3.%player%}%"
+		message " &81 &7l &4&oOWNER &7l &4xXSwainEXx &7l %{online.xXSwainEXx}%"
+		message " &82 &7l &4&oOWNER &7l &4XxMasterxX158 &7l %{online.XxMasterxX158}%"
+		message " &83 &7l &c&oADMIN &7l &cPR0_G3M3R &7l %{online.PR0_G3M3R}%"
+		message " &84 &7l &c&oADMIN &7l &cIuIzSec_ &7l %{online.IuIzSec_}%"
 		message " "
 		message "&7============= &aMineBuild &6Teamliste &7============="
