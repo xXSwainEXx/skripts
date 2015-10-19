@@ -1,0 +1,45 @@
+# /------------------------\
+#/ Scoreboard by xXSwainEXx \
+#\    Server: MineBuild     /
+# \------------------------/
+# 
+#
+# Infos / Information:
+#
+# German / Deutsch: Du kannst dieses Skript ändern wie du willst bei problemen komm auf meinem TeamSpeak. Ip: ts12.nitrado.net:16000
+#
+# ENGLISH: You can edit the skript but when you have Problems join my TeamSpeak. Ip: ts12.nitrado.net:16000
+#
+# Sry for my bad english
+
+
+
+options:
+	Title: &aMineBuild
+	
+	
+
+
+on join:
+	wait 1 tick
+	set name of sidebar of player to "&9&lWillkommen"
+	set score "&7&m-------------------" in sidebar of player to 0
+	wait 3 ticks
+	set name of sidebar of player to "Loading..."
+	set score "Erste Zeile / first row" in sidebar of player to 8
+	set score "Zweite zeile / second row" in sidebar of player to 7
+	set score "blablabala" in sidebar of player to 6
+	set score "blablabla" in sidebar of player to 5
+	set score "afadfa" in sidebar of player to 4
+	set score "blablaafa" in sidebar of player to 3
+	set score "text" in sidebar of player to 2
+	set score "message" in sidebar of player to 1
+	while player is online:
+		wait 5 ticks
+		set name of sidebar of player to " &6>{@Title}&6< "
+		wait 5 ticks
+		set name of sidebar of player to " &6>{@Title}&6< "
+		wait 5 ticks
+		set name of sidebar of player to "&6> {@Title}&6 <"
+		wait 5 ticks
+		set name of sidebar of player to "&6> {@Title}&6 <"
