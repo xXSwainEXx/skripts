@@ -14,32 +14,26 @@
 
 
 
-options:
-	Title: &aMineBuild
-	
-	
-
-
 on join:
 	wait 1 tick
 	set name of sidebar of player to "&9&lWillkommen"
 	set score "&7&m-------------------" in sidebar of player to 0
 	wait 3 ticks
 	set name of sidebar of player to "Loading..."
-	set score "Erste Zeile / first row" in sidebar of player to 8
-	set score "Zweite zeile / second row" in sidebar of player to 7
-	set score "blablabala" in sidebar of player to 6
-	set score "blablabla" in sidebar of player to 5
-	set score "afadfa" in sidebar of player to 4
-	set score "blablaafa" in sidebar of player to 3
-	set score "text" in sidebar of player to 2
-	set score "message" in sidebar of player to 1
+	set score "&7&lÂ»  &6Dein Name&7:" in sidebar of player to 8
+	set score "       &a%player%" in sidebar of player to 7
+	set score "&7&lÂ»  &6Deine OnlineZeit:" in sidebar of player to 6
+	set score "       &a/onlinezeit <Dein Name>" in sidebar of player to 5
+	set score "&7&lÂ»  &6Hilfe?" in sidebar of player to 4
+	set score "       &a/hilfe" in sidebar of player to 3
+	set score "&7&lÂ»  &6TeamSpeak:" in sidebar of player to 2
+	set score "       &a/Ts" in sidebar of player to 1
 	while player is online:
 		wait 5 ticks
-		set name of sidebar of player to " &6>{@Title}&6< "
+		set name of sidebar of player to " &6>&aMineBuild&6< "
 		wait 5 ticks
-		set name of sidebar of player to " &6>{@Title}&6< "
+		set name of sidebar of player to " &6>&aMineBuild&6< "
 		wait 5 ticks
-		set name of sidebar of player to "&6> {@Title}&6 <"
+		set name of sidebar of player to "&6> &aMineBuild&6 <"
 		wait 5 ticks
-		set name of sidebar of player to "&6> {@Title}&6 <"
+		set name of sidebar of player to "&6> &aMineBuild&6 <"
