@@ -1,0 +1,73 @@
+on join:
+	wait 5 ticks
+	while player is online:
+		wipe player's sidebar
+		set name of sidebar of player to "&a»«"
+		set score "&b►  &7Online: &e%number of all players%" in sidebar of player to 5
+		set score "&b►  &7Konto: &e%{coins.%player%}%" in sidebar of player to 4
+		set score "&b►  &7Spielstunden: &e%{ot.h.%player%}%" in sidebar of player to 3
+		set score "&2" in sidebar of player to 2
+		set score "&b►  &7Fragen? &6/hilfe" in sidebar of player to 1
+		set score "&b►  &7Teamspeak: &6/TS" in sidebar of player to 0
+		
+		
+		set name of sidebar of player to "&a« »"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7M &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MI &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MIN &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MINE &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MINE&fB &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MINE&fBU &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MINE&fBUI &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MINE&fBUIL &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MINE&fBUILD &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a«&7MINE&fBUILD &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&7MINE&fBUILD "
+		wait 10 ticks
+		set name of sidebar of player to "&7MINE&eBUILD"
+		wait 3 ticks
+		set name of sidebar of player to "&eMINE&7BUILD"
+		wait 3 ticks
+		set name of sidebar of player to "&7MINE&eBUILD"
+		wait 3 ticks
+		set name of sidebar of player to "&eMINE&7BUILD"
+		wait 3 ticks
+		set name of sidebar of player to "&7MINE&eBUILD"
+		wait 3 ticks
+		set name of sidebar of player to "&eMINE&7BUILD"
+		wait 10 ticks
+		set name of sidebar of player to "&a«&7MINE&fBUILD &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a« &7MINE&fBUILD  &a»"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7MINE&fBUILD &a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7MINE&fBUIL&a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7MINE&fBUI&a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7MINE&fBU&a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7MINE&fB&a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7MINE&a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7MIN&a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7MI&a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»&7M&a«"
+		wait 3 ticks
+		set name of sidebar of player to "&a»«"
+		wait 3 ticks
